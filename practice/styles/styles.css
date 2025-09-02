@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: blue;
+    padding: 0.5rem;
+    color: white;
+}
+p{
+    text-align: center;
+}
+nav{
+    margin: 0 auto 2rem;
+    max-width: 90vw;
+}
+.navigation{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: center;
+}
+.navigation li{
+    flex: 1 1 auto;
+}
+.navigation a{
+    display: block;
+    color: white;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+main {
+	margin: 1rem;
+	border: 1px solid rgb(0 0 0 / .2);
+	padding: 1rem;
+	background-color: #eee;
+}
