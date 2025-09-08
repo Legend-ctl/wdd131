@@ -8,5 +8,5 @@ document.querySelector("#lastModified").textContent =`Last Modified: ${lastModif
 
 const courseTitle = document.querySelector("#course-title")
 if (courseTitle){
-    courseTitle.textContent += " | Moses John"
+    courseTitle.textContent += " - Moses John"
 }
