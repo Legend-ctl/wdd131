@@ -62,6 +62,13 @@ h1{
     grid-column: 1 / 13;
 
 }
+h4{
+   background-color: rgb(62, 48, 255);
+    color: white;
+    text-align: center;
+    grid-column: 1 / 13;  
+    max-width: 400;
+}
 
 .card1{ 
     border-radius: 25px;
