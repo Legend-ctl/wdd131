@@ -24,7 +24,7 @@ nav{
 }
 nav ul{
     list-style: none;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
 }
 nav a{
@@ -84,6 +84,12 @@ footer{
     padding: 20px;
 }
 .show li{
+    display: block;
+}
+ul{
+    display: none;
+}
+ul.show{
     display: block;
 }
 #menu.show::before{

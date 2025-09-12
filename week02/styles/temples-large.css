@@ -5,21 +5,12 @@
         justify-content: space-between;
     }
     nav ul{
+        display: flex;
         justify-content: flex-end;
         flex-direction: row;
     }
     nav a{
         flex: 1 1 auto;
-    }
-    ul{
-        display: flex;
-    }
-    ul li{
-        display: block;
-        flex: 1 1 100%;
-    }
-    ul{
-        text-align: center;
     }
     #menu{
         display: none;

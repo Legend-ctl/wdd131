@@ -5,7 +5,7 @@ const lastModified = document.lastModified;
 document.querySelector("#lastModified").textContent = `Last Modified: ${lastModified}`;
 
 
-const mainnav = docucument.querySelector("ul")
+const mainnav = document.querySelector("ul")
 const hambutton = document.querySelector("#menu")
 
 hambutton.addEventListener("click", () => {
