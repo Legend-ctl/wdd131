@@ -11,4 +11,29 @@
     nav a{
         flex: 1 1 auto;
     }
+    ul{
+        display: flex;
+    }
+    ul li{
+        display: block;
+        flex: 1 1 100%;
+    }
+    ul{
+        text-align: center;
+    }
+    #menu{
+        display: none;
+    }
+
+}
+
+@media (max-width: 900px){
+    main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px){
+    main{
+        grid-template-columns: 1fr;
+    }
 }
