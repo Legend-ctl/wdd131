@@ -13,7 +13,7 @@ header{
     grid-gap: 1rem;
     padding: 20px;
     border: 1px solid gray;
-    box-shadow:  0 0 60px;
+    box-shadow:  0 0 60px gray;
     color: white;
 }
 header{
@@ -24,7 +24,6 @@ nav{
 }
 nav ul{
     list-style: none;
-    /* display: flex; */
     flex-direction: column;
 }
 nav a{
@@ -58,17 +57,16 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    grid-gap: 5px;
-}
-h1{
-    text-align: center;
-    grid-column: 1 / -1;
+    align-items: start;
+    grid-gap: 10px;
+    padding: 1rem;
 }
 img{
     width: 100%;
     height: auto;
 }
 figure {
+    width: 100%;
     text-align: center;
 }
 
