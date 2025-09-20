@@ -8,6 +8,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
 header{
     max-width: 100vw;
     background-color: var(--main-color);
@@ -85,4 +89,19 @@ p{
 section img{
     width: 15%;
     height: auto;
+}
+h2::after {
+  content: " 🌍";   
+  margin-left: 5px;
+}
+p::after {
+  content: " |";
+  color:    var(--main-color);
+}
+footer::after {
+  content: " ©";
+}
+.country::after {
+  content: " 🇳🇬";
+  margin-left: 4px;
 }
