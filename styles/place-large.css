@@ -1,0 +1,38 @@
+/* Mobile first: reset sections */
+@media (max-width: 767px) {
+    article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left, .right {
+        position: static;   
+        float: none;       
+        width: 100%;        
+        margin: 10px 0;     
+    }
+}
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 999px) {
+  article {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .left, .right {
+    width: 40%; /* reduce width so they fit side by side */
+  }
+}
+
+/* Large screen */
+@media (min-width: 1000px) {
+  article {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .left, .right {
+    width: 25%; /* smaller panels floating near hero */
+  }
+}
