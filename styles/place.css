@@ -65,6 +65,15 @@ h2{
     font-size: 2rem;
     margin-left: -30px;
 }
+.weather-heading::after{
+    content: "";
+}
+.weather-icon{
+    display: inline-block;
+    width: 24px;
+    height: auto;
+    margin-left: 6px;
+}
 .left{
     position: absolute;
     float: right;

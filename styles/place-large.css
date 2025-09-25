@@ -36,3 +36,14 @@
     width: 25%; 
   }
 }
+@media (min-width: 768px) {
+  .weather-icon{
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  .weather-heading::after{
+    content: " ⛅";
+    margin-left: 8px;
+  }
+}
