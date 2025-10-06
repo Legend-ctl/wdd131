@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    padding: 1.5rem;
+}
+
+/* ---------- Header ---------- */
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #008751;
+    color: white;
+    border-radius: 10px;
+}
+.subtitle {
+    font-size: 1.2rem;
+    color: #C5A236;
+}
+
+/* ---------- Sections ---------- */
+main section {
+    margin: 2rem auto;
+    max-width: 800px;
+}
+h2 {
+    font-family: "Merriweather", serif;
+    color: #008751;
+    border-bottom: 2px solid #C5A236;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* ---------- Colors ---------- */
+.color-samples {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.color-box {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+}
+.green { background-color: #008751; }
+.white { background-color: #ffffff; color: #333; border: 1px solid #ccc; }
+.gold { background-color: #C5A236; }
+
+/* ---------- Wireframes ---------- */
+.wireframes {
+    display: grid;
+    gap: 1rem;
+    justify-content: center;
+}
+.wireframes img {
+    width: 100%;
+    max-width: 350px;
+    border: 2px solid #C5A236;
+    border-radius: 10px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #008751;
+    color: white;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
