@@ -30,15 +30,22 @@
             <label for="date">Date of installation:</label> <br>
             <input type="date" name="date" id="date" required> <br> <br>
             <label>Which feature did you find useful in the product? <br> (Check all that apply)</label> <br>
-            <input type="checkbox" id="features" name="features" value="Durability"> <label for="features">Durability</label><br>
-            <input type="checkbox" id="features" name="features" value="Ease of use"> <label for="features">Ease of use</label> <br>
-            <input type="checkbox" id="features" name="features" value="Durability"> <label for="Performance">Performance</label><br>
-            <input type="checkbox" id="features" name="features" value="Design"> <label for="features">Design</label> <br> <br>
+            <input type="checkbox" id="feature-durability" name="features" value="Durability">
+            <label for="feature-durability">Durability</label><br>
+
+            <input type="checkbox" id="feature-ease" name="features" value="Ease of use">
+            <label for="feature-ease">Ease of use</label><br>
+
+            <input type="checkbox" id="feature-performance" name="features" value="Performance">
+            <label for="feature-performance">Performance</label><br>
+
+            <input type="checkbox" id="feature-design" name="features" value="Design">
+            <label for="feature-design">Design</label><br><br>          
             <label for="review">Written review <span>(Optional)</span></label> <br>
             <textarea name="review" id="review" rows="5" cols="40"></textarea> <br><br>
             <label for="name">Your Name <span>(Optional)</span></label><br>
             <input type="text" id="name" name="name"> <br><br>
-            <a href="review.html"><input type="submit" value="Post Review"></a>
+            <input type="submit" value="Post Review" href="review.html">
         </form>
     </main>
     <footer>
