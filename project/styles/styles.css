@@ -1,0 +1,162 @@
+/* ===============================
+   NAIJA YOUTH CONNECT - Base Style
+   =============================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* ----- HEADER ----- */
+header {
+  background-color: #00c853;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+/* ----- NAVIGATION BAR ----- */
+nav {
+  background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00c853;
+}
+
+/* ----- MAIN CONTENT ----- */
+main {
+  padding: 40px 60px;
+  min-height: 70vh;
+}
+
+/* Section titles */
+h2 {
+  color: #00c853;
+  margin-bottom: 20px;
+}
+
+/* Card-like containers */
+.course-card,
+.opportunity-item {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h3,
+.opportunity-item h4 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.course-card p,
+.opportunity-item p {
+  color: #333;
+}
+
+/* ----- FORM STYLES ----- */
+form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+form button {
+  background: #00c853;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #009f42;
+}
+
+/* ----- FOOTER ----- */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  position: relative;
+}
+
+footer a {
+  color: #00c853;
+  text-decoration: none;
+}
+
+/* ----- THEME TOGGLE BUTTON ----- */
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #00c853;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+#theme-toggle:hover {
+  background: #009f42;
+}

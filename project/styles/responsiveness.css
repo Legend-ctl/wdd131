@@ -1,0 +1,123 @@
+/* ===============================
+   NAIJA YOUTH CONNECT - style.css
+   (Responsive + Dark Mode)
+   =============================== */
+
+/* ----- BASE STYLES ----- */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+header, nav, footer {
+  padding: 15px 20px;
+  text-align: center;
+  background: #1e1e1e;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+/* ----- CARDS / LIST STYLES ----- */
+.course-card, .opportunity-item {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.course-card h3, .opportunity-item h4 {
+  color: #00c853;
+}
+
+/* ----- DARK MODE (Handled by JS toggle) ----- */
+.dark-mode {
+  background: #f9f9f9;
+  color: #111;
+}
+
+.dark-mode header,
+.dark-mode nav,
+.dark-mode footer {
+  background: #ddd;
+}
+
+.dark-mode nav a {
+  color: #111;
+}
+
+/* ----- BUTTON STYLE ----- */
+#theme-toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: #00c853;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+#theme-toggle:hover {
+  background: #00a843;
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+   =============================== */
+
+/* For tablets (width 768px and below) */
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 8px;
+    font-size: 16px;
+  }
+
+  main {
+    padding: 15px;
+  }
+}
+
+/* For mobile phones (width 480px and below) */
+@media screen and (max-width: 480px) {
+  header, nav, footer {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #theme-toggle {
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .course-card, .opportunity-item {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
